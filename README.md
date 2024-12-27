@@ -1,4 +1,4 @@
 # Invest-Pulse
-Apenas o Front End do Projeto completo
-
-Veja mais em Github Pages: [https://fabiovgc.github.io/Invest-Pulse-frontEnd/]
+Conheça um pouco mais sobre cinco ativos da bolsa de valores no projeto Invest Pulse !! <br/>
+Para apresentação dos gráficos foi usada a biblioteca CHART.JS <br/>
+Se divirta !!! [/]
