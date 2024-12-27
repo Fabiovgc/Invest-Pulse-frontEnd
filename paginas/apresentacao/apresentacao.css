@@ -311,6 +311,7 @@ section {
 }
 .lorem1, .lorem2 {
   margin: 50px;
+  font-size: 15px;
 }
 /* Estilo para o conteúdo da seção */
 .content {
