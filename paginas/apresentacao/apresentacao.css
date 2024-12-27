@@ -297,6 +297,15 @@ section {
 .div__img__2 strong, .div__img__1 strong{
   color:#57449a
 }
+
+.manutencao{
+  font-size: 50px;
+  position: absolute;
+  padding:3px;
+  background-color: #5c5c5c46;
+  color:#ff0000;
+}
+
 .div__img__2 img {
   width: 50%;  
 }
