@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INVEST PULSE</title>
     <link rel="stylesheet" href="inicial.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>INVEST PULSE</title>
 </head>
 
 <body>
-    <header>
-        <a href="./inicial.html">
+    <!-- <header>
+        <a href="../apresentacao/apresentacao.html">
             <div class="logo">
                 <img src="./img/gráficoSemFundo.png" alt="Logo">
                 <h1 class="empresa">Invest Pulse</h1>
@@ -27,8 +28,28 @@
                     Investimentos</a>
             </div>
         </nav>
+    </header> -->
+
+    <header class="header">
+        <a href="../apresentacao/apresentacao.html">
+            <div class="logo">
+                <img src="./img/gráficoSemFundo.png" alt="Logo">
+                <h1>Invest Pulse</h1>
+            </div>
+        </a>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger" id="hamburger">
+                <i class='bx bx-menu' id="menu-hamburger"></i>
+                <i class='bx bx-x' id="close-hamburger"></i>
+            </label>
+            <div class="nav-links" id="nav-links">
+                <a class="calculadora" style="--i:0;" href="http://localhost:5173/">Calculadora de Investimentos</a>
+                <a class="entrar" style="--i:0;" href="../login/login.html">Entrar</a>
+                <a class="cadastrar" style="--i:1;" href="../cadastro/cadastro.html">Cadastrar</a>
+            </div>
+        </nav>
     </header>
-    
     <section class="top-section">
         <div class="left">
             <h2>Encontre o melhor investimento para você</h2>
@@ -37,9 +58,9 @@
             <!-- <img src="./img/LogoSemFundo.png" alt="Investment Logo"> -->
         </div>
     </section>
+
     <section class="bottom-section">
         <div class="left">
-            <!-- <div class="indices">Índices do Gráfico</div> -->
             <canvas id="chart"></canvas>
         </div>
         <div class="right">
@@ -70,6 +91,8 @@
 
         </div>
     </section>
+
+
     <footer class="footer">
         <h2>Contatos dos desenvolvedores</h2>
         <div class="container">
@@ -129,6 +152,13 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="inicial.js"></script>
 </body>
